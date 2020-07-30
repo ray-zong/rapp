@@ -1,0 +1,20 @@
+<!--pages/user/user.wxml-->
+
+<view class='loginHeader'>
+    <image class='userHead' src='{{userHead}}' mode='aspectFill' bindtap='previewHead'/>
+    <text class='userTitle' bindtap='loginTap'>{{userTitle}}</text>
+</view>
+<view class='order'>
+    <view class='item' bindtap='myOrderTap'>
+        <image class='icon' src='../../res/images/my_order.png' mode='widthFix'/>
+        <text class='text'>我的订单</text>
+    </view>
+    <view class='item' bindtap='joinRecordTap'>
+        <image class='icon' src='../../res/images/my_order.png' mode='widthFix'/>
+        <text class='text'>参团记录</text>
+    </view>
+    <view class='item' bindtap='myPointsTap'>
+        <image class='icon' src='../../res/images/my_order.png' mode='widthFix'/>
+        <text class='text'>我的积分</text>
+    </view>
+</view>
